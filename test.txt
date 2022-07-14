@@ -1,1 +1,23 @@
-Hola
+Guide to configure a git repository:
+
+To configure git, follow these steps.
+
+->git config --global user.name "Tu nombre"
+->git config --global usuario.email "youremail@domain.com"
+
+To clone the repository and add files, edit, do commits, follow these steps.
+
+These one will clone the repository to your computer
+->git clone (url)
+
+Once you create a file, you can add to the repository with these commands
+->git add (nombres de archivo)
+
+Write something about the file, what it contains, the changes it has, etc
+->git commit -m "(mensaje confirmado)"
+
+By pushing the file, you are placing it at the git website*
+->git push -u origin main
+
+
+*The word "main" will be replace with the name of your main branch, the default is main, but you can change that name
